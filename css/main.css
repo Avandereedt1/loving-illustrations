@@ -121,7 +121,7 @@ a{
 
 a:hover {
     background-color: var(--accent-color);
-    color: var(--accent-contrast-color);
+    color: var(--accent-color);
 }
 
 img {
