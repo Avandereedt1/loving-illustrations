@@ -156,6 +156,22 @@ img {
 .intro >  {
     width: 100%;
 }
+/*
+.intro.dark {
+    align-content: center;
+    background: navy;
+    background-position: center;
+    background-size: cover;
+    color: lightblue;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    min-height: 300px;
+    text-align: center;
+  }
+*/
 
 /* Styles for the About section */
 .about .center{
