@@ -254,10 +254,10 @@ color: var(--acccent-contrast-color);
     color: var(--accent-contrast-color);
 }
 
-.works img {
+.works {
     columns: 3;
-    height: 4vh;
+    height: 2vh;
     max-width: 100%;
-    margin: auto 0;
+    
     
 }
