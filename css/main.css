@@ -253,3 +253,11 @@ color: var(--acccent-contrast-color);
     background-color: var(--accent-color);
     color: var(--accent-contrast-color);
 }
+
+.works img {
+    columns: 3;
+    height: 4vh;
+    max-width: 100%;
+    margin: auto 0;
+    
+}
