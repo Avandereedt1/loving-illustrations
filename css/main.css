@@ -2,7 +2,7 @@
    
    :root {
         --main-color: lightblue;
-        --main-contrast-color: rgb(61, 128, 167);
+        --main-contrast-color: #274562;
         --accent-contrast-color: rgb(3, 31, 41);
     }
 
@@ -12,15 +12,18 @@ html,
 body {
     margin: 0;
 } 
+
+
+
 .navigation {
 	overflow: hidden;
-	background-color: lightblue;
+    background-color: var(--accent-contrast-color);
   }
   
   .navigation a {
 	float: left;
 	font-size: 26px;
-	color: white;
+	color: goldenrod;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -35,7 +38,7 @@ body {
 	font-size: 26px;  
 	border: none;
 	outline: none;
-	color: white;
+	color:goldenrod;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -49,7 +52,7 @@ body {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: lightblue;
+	background-color:  var(--accent-contrast-color);
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -57,7 +60,7 @@ body {
   
   .dropdown-content a {
 	float: none;
-	color: goldenrod;
+	color: var(--main-contrast-color);
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -65,7 +68,7 @@ body {
   }
   
   .dropdown-content a:hover {
-	background-color: rgb(61, 128, 167);
+	background-color: var(--accent-contrast-color)
   }
   
   .dropdown:hover .dropdown-content {
@@ -115,7 +118,7 @@ p{
 }
 
 a{
-    background-color: var(--main-color);
+    background-color: var(--accent-contrast-color);
     color: var(--main-contrast-color);
 }
 
@@ -132,6 +135,7 @@ img {
 /* You target class names in our CSS by putting a period . before the name of the class. */
 
 .center {
+    color: goldenrod;
     margin: 0 auto;
     max-width: 1440;
     width: 80%;
@@ -140,11 +144,10 @@ img {
 .intro {
     align-content: center;
     background-blend-mode: multiply;
-    background-image: url("images/deep_forest.png");
     background-color:  var(--main-color);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: goldenrod;
     display: flex;
     flex-wrap: wrap;
     height: 50vh;
@@ -156,22 +159,6 @@ img {
 .intro >  {
     width: 100%;
 }
-/*
-.intro.dark {
-    align-content: center;
-    background: navy;
-    background-position: center;
-    background-size: cover;
-    color: lightblue;
-    font-size: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 80vh;
-    justify-content: center;
-    min-height: 300px;
-    text-align: center;
-  }
-*/
 
 /* Styles for the About section */
 .about .center{
@@ -254,7 +241,8 @@ color: var(--acccent-contrast-color);
     color: var(--accent-contrast-color);
 }
 
-.works {
+.works img {
+    color: goldenrod
     columns: 3;
     height: 2vh;
     max-width: 100%;
