@@ -408,14 +408,14 @@ input:checked +.card > .card-img{
   }
 }
 
-
-
-.works {
-  columns: 3;
-  height: 2vh;
+.comic-one {
+  display: flex;
+  flex-wrap: wrap;
+  columns: 2;
+  height: 100vh;
   max-width: 100%;
 }
-
+/*
 .location {
     box-sizing: border-box;
     border: var(--main-color);
