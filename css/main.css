@@ -409,11 +409,20 @@ input:checked +.card > .card-img{
 }
 
 .comic-one {
+  border-style: ridge;
+  border-width: 8px;
+  columns: 4;
+}
+
+.comic-one a img {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  columns: 2;
-  height: 100vh;
   max-width: 100%;
+  width: 400px;
+  height: 400px;
+  display: block;
+  object-fit: contain;
 }
 /*
 .location {
@@ -423,5 +432,6 @@ input:checked +.card > .card-img{
     columns: 3;
     display:flex;
     flex-wrap: wrap;
+
 }
 
