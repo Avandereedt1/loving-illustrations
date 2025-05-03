@@ -13,6 +13,7 @@
 html,
 body {
     margin: 0;
+    scroll-behavior: smooth;
 } 
 
 
@@ -123,7 +124,6 @@ p{
     font-family: "Playpen Sans";
     font-optical-sizing: auto;
     font-weight: 200px;
-    font-style: bold;
     /* max-width: 600px; */
 }
 
