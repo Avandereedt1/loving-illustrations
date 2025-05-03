@@ -429,14 +429,17 @@ input:checked +.card > .card-img{
   display: block;
   object-fit: contain;
 }
-/*
+
 .location {
     box-sizing: border-box;
     border: var(--main-color);
     border-style: solid;
     columns: 3;
+    color: gold;
     display:flex;
     flex-wrap: wrap;
-
+    list-style: none;
+    padding-bottom: 2rem;
+    word-spacing: 30px;
 }
 
