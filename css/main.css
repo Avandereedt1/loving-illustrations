@@ -434,7 +434,7 @@ input:checked +.card > .card-img{
     box-sizing: border-box;
     border: var(--main-color);
     border-style: solid;
-    columns: 3;
+    columns: 2;
     color: gold;
     display:flex;
     flex-wrap: wrap;
