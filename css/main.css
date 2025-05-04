@@ -413,7 +413,7 @@ input:checked +.card > .card-img{
 
 .comic-one {
   
-  columns: 4;
+  columns: 3;
 }
 
 .comic-one a img {
@@ -424,11 +424,13 @@ input:checked +.card > .card-img{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 100%;
   width: 400px;
   height: 400px;
   display: block;
   object-fit: contain;
+  padding-bottom: 2rem;
 }
 
 .location {
