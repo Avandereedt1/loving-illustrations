@@ -434,6 +434,8 @@ input:checked +.card > .card-img{
   display: block;
   object-fit: contain;
   padding-bottom: 2rem;
+
+  
 }
 
 .location {
