@@ -23,7 +23,7 @@ body {
     background-color: var(--accent-contrast-color);
     border-color: rgb(61, 128, 167);
     border-style: solid;
-    border-width: 8px;
+    border-width: 6px;
     height: 30vh;
     max-width: auto;
   }
