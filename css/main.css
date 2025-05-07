@@ -22,7 +22,7 @@ body {
 	overflow: hidden;
     background-color: var(--accent-contrast-color);
     border-color: rgb(61, 128, 167);
-    border-style: ridge;
+    border-style: solid;
     border-width: 8px;
     height: 30vh;
     max-width: auto;
@@ -85,8 +85,8 @@ body {
 
 .logo img {
     border-color: rgb(61, 128, 167);
-    border-width: 8px;
-    border-style: ridge;
+    border-width: 6px;
+    border-style: solid;
     display: block;
     height: 30vh;
     max-width: auto;
