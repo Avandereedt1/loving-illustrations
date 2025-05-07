@@ -417,7 +417,7 @@ input:checked +.card > .card-img{
 }
 
 .comic-one a img {
-  background-color: black;
+  
   border-color: var(--accent-contrast-color);
   border-style: ridge;
   border-width: 8px;
@@ -430,7 +430,7 @@ input:checked +.card > .card-img{
   width: 400px;
   height: 400px;*/
   
-  height: auto;
+  height: 100pxs;
   display: block;
   object-fit: contain;
   padding-bottom: 2rem;
