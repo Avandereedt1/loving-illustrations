@@ -148,7 +148,8 @@ img {
 /* You target class names in our CSS by putting a period . before the name of the class. */
 
 .center {
-  color: goldenrod;
+  font-family: "Playpen Sans";
+  color: orange;
   margin: 0 auto;
   max-width: 1440;
   width: 80%;
@@ -291,26 +292,7 @@ input:nth-of-type(3):checked + .card ~ .card > .card-img{
   animation: straighten-img-3 calc(var(--duration) * 2) forwards;
   animation-timing-function: var(--img-easing);
 }
-.card:has(~input:nth-of-type(4):checked) > .card-img,
-input:nth-of-type(4):checked + .card ~ .card > .card-img{
-  animation: straighten-img-4 calc(var(--duration) * 2) forwards;
-  animation-timing-function: var(--img-easing);
-}
-.card:has(~input:nth-of-type(5):checked) > .card-img,
-input:nth-of-type(5):checked + .card ~ .card > .card-img{
-  animation: straighten-img-5 calc(var(--duration) * 2) forwards;
-  animation-timing-function: var(--img-easing);
-}
-.card:has(~input:nth-of-type(6):checked) > .card-img,
-input:nth-of-type(6):checked + .card ~ .card > .card-img{
-  animation: straighten-img-6 calc(var(--duration) * 2) forwards;
-  animation-timing-function: var(--img-easing);
-}
-.card:has(~input:nth-of-type(7):checked) > .card-img,
-input:nth-of-type(7):checked + .card ~ .card > .card-img{
-  animation: straighten-img-7 calc(var(--duration) * 2) forwards;
-  animation-timing-function: var(--img-easing);
-}
+
 /* as CSS can't remove animations, we change the animation according to which checkbox is checked  - all animations are the same (would be simpler with SCSS) */
 @keyframes straighten-img-1 { 50%{ --angle: 0deg;} }
 @keyframes straighten-img-2 { 50%{ --angle: 0deg;} }
@@ -353,7 +335,7 @@ input:checked + .card{
 }
 .card-data > p{
   font-size: 20px;
-
+  font-weight: 400px;
 }
 .card-data > h2,
 .card-data > p{
@@ -425,52 +407,47 @@ input:checked +.card > .card-img{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
   max-width: 100%;
-  /*
-  width: 400px;
-  height: 400px;*/
-  
   height: auto;
   
-  object-fit: cover;
-  padding-bottom: 2rem;
-
-  
 }
 
-.non-comic {
+.non-comics {
   columns: 3;
+  padding-bottom: 2rem;
 }
 
-.non-comics a img {
+.non-comics img {
   border-color: turquoise;
   border-style: ridge;
   border-width: 8px;
+  columns: 3;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-items: center;
   max-width: 100%;
-  
-  
+  width: 60%;
   height: auto;
-  
-  object-fit: contains;
-  padding-bottom: 2rem;
+
 }
 
 .location {
     box-sizing: border-box;
     border: var(--accent-contrast-color);
     border-style: solid;
-    border-image-width: 15px 40px;
+    border-width: 8px;
     columns: 2;
-    color: var(--accent-contrast-color)s;
+    color: orange;
     display:flex;
     flex-wrap: wrap;
+    font-family: "Playpen Sans";
+    font-size: 40px;
+    font-weight: 200px;
+    justify-content: center;
     list-style: none;
+    padding-top: 2rem;
     padding-bottom: 2rem;
-    word-spacing: 30px;
 }
 
