@@ -423,7 +423,7 @@ input:checked +.card > .card-img{
   border-style: ridge;
   border-width: 8px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-items: center;
   max-width: 100%;
@@ -437,6 +437,27 @@ input:checked +.card > .card-img{
   padding-bottom: 2rem;
 
   
+}
+
+.non-comic {
+  columns: 3;
+}
+
+.non-comics a img {
+  border-color: turquoise;
+  border-style: ridge;
+  border-width: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  max-width: 100%;
+  
+  
+  height: auto;
+  
+  object-fit: contains;
+  padding-bottom: 2rem;
 }
 
 .location {
