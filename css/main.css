@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
    
    :root {
-        --main-color: lightblue;
         --main-contrast-color: #274562;
         --accent-contrast-color: rgb(3, 31, 41);
 
@@ -16,6 +15,10 @@ body {
     margin: 0;
    
 } 
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 .navigation {
@@ -55,7 +58,7 @@ body {
   
   .navigation a:hover, .dropdown:hover .dropbtn {
 	background-color: rgb(61, 128, 167);
-  }
+  } 
   
   .dropdown-content {
 	display: none;
@@ -64,7 +67,7 @@ body {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-  }
+  } 
   
   .dropdown-content a {
 	float: none;
@@ -78,10 +81,10 @@ body {
   .dropdown-content a:hover {
 	background-color: var(--accent-contrast-color)
   }
-  
+   
   .dropdown:hover .dropdown-content {
 	display: block;
-  }
+  } 
 
 .logo img {
     border-color: var(--accent-contrast-color);
@@ -149,7 +152,7 @@ img {
 
 .center {
   font-family: "Playpen Sans";
-  font-size: 13.5px;
+  font-size: 15px;
   color: orange;
   margin: 0 auto;
   max-width: 1440;
@@ -159,8 +162,10 @@ img {
 .intro {
     align-content: center;
     border-color: cornflowerblue;
+    /*
     border-style: ridge;
     border-width: 10px;
+    */
     background-blend-mode: multiply;
     background-color:  var(--main-color);
     background-position: center;
@@ -269,7 +274,7 @@ body{
   height: 200px;
   aspect-ratio: 1 / 1 ;
   rotate: var(--angle, 0deg);
-  border-radius: 10px;
+  border-radius: 12px;
   border: 3px solid #FFF;
   overflow: hidden;
   transform-origin: center;
@@ -397,9 +402,16 @@ input:checked +.card > .card-img{
   }
 }
 
+#works {
+  
+  padding-top: 3rem;
+
+}
+
 .comic-one {
   color: orange;
   columns: 3;
+ 
 }
 
 .comic-one a img {
@@ -413,6 +425,7 @@ input:checked +.card > .card-img{
   justify-content: center;
   max-width: 100%;
   height: auto;
+
   
 }
 
@@ -420,6 +433,11 @@ input:checked +.card > .card-img{
   color: orange;
   columns: 3;
   padding-bottom: 2rem;
+}
+
+
+#gallery {
+  padding-top: 2rem;
 }
 
 .non-comics img {
