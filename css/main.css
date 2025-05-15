@@ -424,7 +424,7 @@ input:checked +.card > .card-img{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 100%;
+  max-width: 100%; 
   height: auto;
   
   
