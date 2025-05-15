@@ -438,7 +438,7 @@ input:checked +.card > .card-img{
   color: orange;
   columns: 3;
   padding: 1rem;
-  padding-bottom: 2rem;
+  
 }
 
 
@@ -472,6 +472,6 @@ input:checked +.card > .card-img{
     font-weight: 100px;
     justify-content: center;
     list-style: none;
-    padding-bottom: 2rem;
+    
 }
 
