@@ -33,6 +33,7 @@ html {
   
   .navigation a {
 	float: left;
+  font-family: "Playpen Sans";
 	font-size: 26px;
 	color: orange;
 	text-align: center;
@@ -218,7 +219,7 @@ body{
   display: grid;
   place-content: center;
   margin: 0;
-  padding: 1rem;
+  /*padding: 1rem;*/
   font: 1rem system-ui;
 }
 
@@ -411,7 +412,7 @@ input:checked +.card > .card-img{
 .comic-one {
   color: orange;
   columns: 3;
- 
+  padding: 1rem;
 }
 
 .comic-one a img {
@@ -425,13 +426,18 @@ input:checked +.card > .card-img{
   justify-content: center;
   max-width: 100%;
   height: auto;
-
   
+  
+}
+
+.non-comics p {
+  margin-bottom: 2rem;
 }
 
 .non-comics {
   color: orange;
   columns: 3;
+  padding: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -457,9 +463,6 @@ input:checked +.card > .card-img{
 
 .location {
     box-sizing: border-box;
-    border: cornflowerblue;
-    border-style: ridge;
-    border-width: 8px;
     columns: 2;
     color: orange;
     display:flex;
